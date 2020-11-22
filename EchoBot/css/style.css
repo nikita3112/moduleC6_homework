@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chat {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.bot {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background: #9bd9fa;
+  top: 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.heading-name {
+  margin: 0 0 0 15px;
+}
+
+.message-container {
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column-reverse;
+  margin: 10px auto;
+  width: 600px;
+  height: 450px;
+  border: 3px solid #9bd9fa;
+  padding-top: 50px;
+}
+
+.message {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 15px;
+  max-width: 50%;
+  height: auto;
+}
+
+.to-me {
+  background: #9bd9fa;
+}
+
+.from-me {
+  margin-left: auto;
+  background: #d8dfe3;
+}
+
+.form-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#form {
+  display: flex;
+  margin: 0 auto;
+  height: 30px;
+}
+
+.btn {
+  margin-left: 10px;
+  background: #9bd9fa;
+  border: none;
+  width: 100px;
+}
+.btn:hover {
+  transform: scale(1.06);
+}
+
+.input {
+  border: 3px solid #9bd9fa;
+  width: 400px;
+}
+
+.geolocation-link {
+  text-decoration: none;
+  color: blue;
+}
